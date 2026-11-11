@@ -1,0 +1,32 @@
+numeroMDC = int(input("Digite o número: "))
+numero2MDC = int(input("Digite o número: "))
+A = numeroMDC
+B = numero2MDC
+C = numeroMDC
+D = numero2MDC
+
+while B != 0:
+    resto = A % B
+    A = B
+    B = resto
+mmc = (numeroMDC * numero2MDC) // A
+print("O MDC é:", A)
+print("O MMC é:", mmc)
+
+C = int(input("Digite o número para soma: "))
+D = int(input("Digite o número para soma: "))
+soma= (C + D)
+print("SOMA É:",soma)
+
+C = int(input("Digite o número para multiplicar: "))
+D =int(input("Digite o número para multiplicar: "))
+multiplicator= (C * D)
+print("vezes É:",multiplicator)
+
+
+
+
+
+
+
+
